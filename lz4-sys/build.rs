@@ -21,6 +21,6 @@ fn main() {
     }
     compiler.define("LZ4_FORCE_MEMORY_ACCESS", "0");
     compiler.define("LZ4_DEBUG", "2");
-    compiler.define("LZ4F_HEAPMODE", "1");
+    compiler.define("LZ4F_HEAPMODE", "0");
     compiler.compile("liblz4.a");
 }
