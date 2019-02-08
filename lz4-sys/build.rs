@@ -19,5 +19,6 @@ fn main() {
       },
       _ => {}
     }
+    compiler.flag("-DLZ4_DEBUG=2");
     compiler.compile("liblz4.a");
 }
