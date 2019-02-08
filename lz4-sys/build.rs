@@ -20,5 +20,6 @@ fn main() {
       _ => {}
     }
     compiler.define("LZ4_FORCE_MEMORY_ACCESS", "0");
+    compiler.define("LZ4_DEBUG", "0");
     compiler.compile("liblz4.a");
 }
