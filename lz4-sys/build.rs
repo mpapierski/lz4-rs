@@ -19,6 +19,6 @@ fn main() {
       },
       _ => {}
     }
-    compiler.flag("-DLZ4_DEBUG=2");
+    compiler.flag("-DLZ4_FORCE_MEMORY_ACCESS=0");
     compiler.compile("liblz4.a");
 }
